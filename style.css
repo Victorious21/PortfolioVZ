@@ -63,15 +63,15 @@ nav:first-child {
     max-width: 270px;
     padding: 30px;
     margin-bottom: 20px;
-    background-color: yellow;
-    border: 1px solid yellow;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(4, 0, 255);
 }
 
 h3, .sidebar h2 {
     padding-bottom: 20px;
     margin-bottom: 20px;
     line-height: 22px;
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid rgb(0, 255, 55);
 }
 
 .social {
@@ -79,4 +79,14 @@ h3, .sidebar h2 {
     height: 62px;
     margin-top: 8px;
     margin-right: 5px;
+}
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    background: black;
+    border-top: 8px solid red;
 }
