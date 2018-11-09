@@ -59,6 +59,21 @@ h3 {
     border-bottom: 2px solid #ccc;
 }
 
+#nameArt {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background: hotpink;
+
+}
+
 .container a {
     text-decoration: none;
     color: white;
@@ -79,7 +94,7 @@ nav a {
     border-left: 1px solid rgb(43, 255, 0);
 }
 
-nav a: first-child {
+nav a first-child {
     border-left: 0 none;
 }
 
